@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!-- Font-Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css all.min.css">
+
     <link rel="stylesheet" href="css/style.css">
 
     <title>Dropbox</title>
@@ -12,10 +20,11 @@
 
 <body>
 
-    <header>
+    <header class="width-max">
 
-        <div class="header-container">
-            <img src="img/logo-small.png" alt="img logo">
+        <div class="header-container clearfix">
+
+            <img id="logo" class="float-left center-y-header" src="img/logo-small.png" alt="img logo">
 
             <!-- NAV DI SINISTRA -->
             <ul class="float-left">
@@ -30,7 +39,7 @@
                 </li>
             </ul>
 
-            <a class="button float-right" href="#">Inizia</a>
+            <a class="button float-right center-y-header" href="#">Inizia</a>
 
             <!-- NAV DI DESTRA -->
             <ul class="float-right">
@@ -50,32 +59,48 @@
 
     <main>
 
-        <section class="jumbotron">
+        <section id="jumbotron" class="clearfix width-max">
 
-            <!-- TITOLO -->
-            <h1>
-                Tutto ciò che ti serve per il lavoro, in un unico posto
-            </h1>
+            <div class="jumbotron-container central-ten">
 
-            <!-- PARTE DI TESTO JUMBOTRON -->
-            <div class="jumbotron-text-container">
-                <p>
-                    Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
-                </p>
+                <!-- TITOLO -->
+                <h1>
+                    Tutto ciò che ti serve per il lavoro, in un unico posto
+                </h1>
 
-                <!-- BOTTONE PROVA GRATUITA -->
-                <a class="button" href="#">
-                    Inizia la tua prova gratuita
-                </a>
+                <div class="jumbotron-content-container clearfix">
 
-                <p class="font-small">
-                    Annulla in qualsiasi momento
-                </p>
+                    <!-- PARTE DI TESTO JUMBOTRON -->
+                    <div class="jumbotron-text-container float-left inline-block">
+                        <p>
+                            Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                        </p>
+
+                        <!-- BOTTONE PROVA GRATUITA -->
+                        <a class="button" href="#">
+                            Inizia la tua prova gratuita
+                        </a>
+
+                        <p class="font-small">
+                            Annulla in qualsiasi momento
+                        </p>
+
+                        <span id="arrow">
+                            <i class="fas fa-arrow-down"></i>
+                        </span>
+                    </div>
+
+                    <div class="jumbotron-img-container relative float-left inline-block">
+
+                        <!-- IMMAGINE JUMBOTRON -->
+                        <img class="absolute" src="img/jumbo.png" alt="app demo">
+
+                    </div>
+                </div>
+
             </div>
-           
-            <img class="float-right" src="img/jumbo.png" alt="app demo">
-            
         </section>
+
     </main>
 </body>
 </html>
