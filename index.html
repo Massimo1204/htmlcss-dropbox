@@ -11,16 +11,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
     <!-- Font-Awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css all.min.css">
+    <script src="https://kit.fontawesome.com/a98f007f43.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/style.css">
 
     <title>Dropbox</title>
 </head>
 
-<body>
+<body class="relative">
 
-    <header class="width-max">
+    <header class="width-max absolute">
 
         <div class="header-container clearfix">
 
@@ -71,8 +71,9 @@
                 <div class="jumbotron-content-container clearfix">
 
                     <!-- PARTE DI TESTO JUMBOTRON -->
-                    <div class="jumbotron-text-container float-left inline-block">
-                        <p>
+                    <div class="jumbotron-text-container float-left ">
+
+                        <p id="descrizione-jumbotron">
                             Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                         </p>
 
@@ -81,16 +82,17 @@
                             Inizia la tua prova gratuita
                         </a>
 
-                        <p class="font-small">
+                        <p id="annulla" class="font-small">
                             Annulla in qualsiasi momento
                         </p>
 
-                        <span id="arrow">
+                        <p id="arrow">
                             <i class="fas fa-arrow-down"></i>
-                        </span>
+                        </p>
+
                     </div>
 
-                    <div class="jumbotron-img-container relative float-left inline-block">
+                    <div class="jumbotron-img-container relative float-left ">
 
                         <!-- IMMAGINE JUMBOTRON -->
                         <img class="absolute" src="img/jumbo.png" alt="app demo">

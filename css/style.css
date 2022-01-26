@@ -14,13 +14,20 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    font-size: 1.1rem;
+}
+
+main{
+    min-width: 1270px;
 }
 
 /* HEADER */
 header{
     height: 80px;
-    position: fixed;
+    top: 0;
     background-color: white;
+    z-index: 2;
+    min-width: 1270px;
 }
 
 .header-container{
@@ -32,12 +39,12 @@ header{
     list-style: none;
     line-height: 80px;
     vertical-align: middle;
-    padding-left: 45px;
+    padding-left: 2.65vw;
 }
 
 .header-container ul li{
     display: inline;
-    margin-right: 45px;
+    margin-right: 2.65vw;
 }
 
 .header-container ul li a{
@@ -49,32 +56,53 @@ header{
 #jumbotron{
     height: 100vh ;
     background-color: rgb(180, 208, 231);
+    min-height: 500px;
+    max-height: 1100px;
+    min-width: 1270px;
+}
+
+/* TITOLO JUMBOTRON */
+.jumbotron-container h1{
+    font-size: 5.5rem;
+    margin-bottom: 7vh;
 }
 
 /* TESTO JUMBOTRON */
-.jumbotron-container h1{
-    font-size: 5.5rem;
-    margin-bottom: 8.143vh;
+.jumbotron-text-container{
+    width: 35%;
+    padding-right: 5.5%;
+}
+
+.jumbotron-text-container #descrizione-jumbotron{
+    margin-bottom: 45px
+}
+
+.jumbotron-text-container #annulla{
+    margin-top: 1rem;
+}
+
+#arrow{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+
+/* IMMAGINE JUMBOTRON */
+.jumbotron-img-container{
+    width: 65%;
 }
 
 .jumbotron-container img{
-    width: 60vw;
+    width: 100%;
     left: 0;
-}
-
-.jumbotron-text-container{
-    width: 30%;
-    padding-right: 5%;
-}
-
-.jumbotron-img-container{
-    width: 70%;
 }
 
 /* CLASSI COMUNI */
 .button{
     background-color: rgb(0, 97, 255);
     padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .width-max{
@@ -86,7 +114,7 @@ header{
 }
 
 .central-ten{
-    margin: 13.1vh 9.16vw 0 9.16vw;
+    margin: calc(10vh + 80px) 10vw 0 10vw;
 }
 
 .float-left{
@@ -103,6 +131,10 @@ header{
 
 .absolute{
     position: absolute;
+}
+
+.font-small{
+    font-size: 0.9rem;
 }
 
 .inline-block{
