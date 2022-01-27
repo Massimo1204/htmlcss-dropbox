@@ -95,7 +95,17 @@ header{
     left: 0;
 }
 
+/* RADIO BUTTON FATTURAZIONE */
+.radio-button-container{
+    line-height: 150px;
+}
+
+.radio-button-container span{
+    margin-right: 20px;
+}
+
 /* SEZIONE OFFERTE */
+/* DIMENSIONI */
 .offerte{
     padding-top: 300px;
 }
@@ -106,21 +116,24 @@ header{
 
 .card{
     border: solid 1px lightgrey;
+    height: 900px;
+    font-size: 1rem;
+    padding: 0 30px 0 30px;
 }
 
+/* FORMA CARD */
 .card-container .card ul{
     padding: 0;
 }
+
 .card-container .card ul li{
     line-height: 3rem;
-
 }
 
-
-
-/* RADIO BUTTON FATTURAZIONE */
-.radio-button-container span{
-    margin-right: 20px;
+.card-type{
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.2rem;
 }
 
 /* CLASSI COMUNI FONT */
@@ -128,9 +141,22 @@ header{
     font-size: 0.9rem;
 }
 
+[class*="title"]{
+    font-weight: 800;  
+}
+
 .section-title{
     font-size: 3rem;
 }
+
+.section-subtitle{
+    font-size: 2rem;
+}
+
+.small-subtitle{
+    font-size: 1.2rem;
+}
+
 
 .grey{
     color: grey;
@@ -172,7 +198,7 @@ header{
 }
 
 /* CLASSI COMUNI MARGIN */
-.title-spacing{
+.spacing-top{
     margin-top: 30px;
 }
 
