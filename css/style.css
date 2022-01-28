@@ -106,9 +106,6 @@ header{
 
 /* SEZIONE OFFERTE */
 /* DIMENSIONI */
-.offerte{
-    padding-top: 250px;
-}
 
 .card{
     height: 1150px;
@@ -184,6 +181,12 @@ header{
     margin-bottom: 70px;
 }
 
+/* SECTION TEAM */
+
+.team .team-text-container span{
+    line-height: 100px;
+}
+
 /* CLASSI COMUNI FONT */
 .font-small{
     font-size: 0.9rem;
@@ -209,6 +212,10 @@ header{
 .grey{
     color: grey;
     line-height: 3rem;
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 .blue-underline{
@@ -244,15 +251,23 @@ header{
 
 /* CLASSI COMUNI DIMENSIONI */
 .width-max{
-    width: 100vw;
+    width: 99vw;
 }
 
 .width-fill{
     width: 100%;
 }
 
+.half-width{
+    width: 50%;
+}
+
 .one-third{
     width: 30%;
+}
+
+.one-six-vw-height{
+    height: calc((99vw * 0.3) / 2);
 }
 
 /* CLASSI COMUNI MARGIN */
@@ -262,6 +277,10 @@ header{
 
 .spacing-bottom{
     margin-bottom: 110px;
+}
+
+.big-spacing-top{
+    margin-top: 225px;
 }
 
 /* CLASSI COMUNI POSIZIONAMENTO */
