@@ -271,6 +271,7 @@ header{
     padding-bottom: 70px;
 }
 
+.footer-container ul,
 .content-question-container ul{
     list-style: none;
     padding-left: 0;
@@ -279,6 +280,12 @@ header{
 .content-question-container ul li h4{
     margin: 0;
     padding: 50px 0 50px 0;
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
 }
 
 /* CLASSI COMUNI FONT */
@@ -415,7 +422,7 @@ header{
 }
 
 .central-y-seven{
-    margin: 7vw 0;
+    padding: 7vw 0;
 }
 
 .central-twenty{
