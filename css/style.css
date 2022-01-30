@@ -265,13 +265,29 @@ header{
     color: black;
 }
 
+/* SECTION QUESTION */
+.content-question-container h3{
+    font-size: 2.4rem;
+    padding-bottom: 70px;
+}
+
+.content-question-container ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.content-question-container ul li h4{
+    margin: 0;
+    padding: 50px 0 50px 0;
+}
+
 /* CLASSI COMUNI FONT */
 .font-small{
     font-size: 0.9rem;
 }
 
 [class*="title"]{
-    font-weight: 700;  
+    font-weight: 800;  
 }
 
 .section-title{
@@ -396,6 +412,10 @@ header{
 
 .central-ten{
     margin: 10vh 10vw 0 10vw;
+}
+
+.central-y-seven{
+    margin: 7vw 0;
 }
 
 .central-twenty{
