@@ -226,6 +226,28 @@ header{
     background-color: rgb(13, 36, 129);
 }
 
+/* LOGO COLUMN TEXT */
+.column-text{
+    background-color: rgb(245, 245, 245);
+}
+.column-text-container{
+    padding: 60px 60px;
+}
+
+.img-column-text-container img{
+    width: 9vw;
+}
+
+.column-text-container hr{
+    width: 60px;
+    margin-top: 40px;
+}
+
+.column-text-container p{
+    margin: 60px 0;
+}
+
+
 /* CLASSI COMUNI FONT */
 .font-small{
     font-size: 0.9rem;
@@ -303,6 +325,14 @@ header{
 
 .one-third{
     width: 30%;
+}
+
+.width-forty{
+    width: calc(100% - 30% - 30%);
+}
+
+.one-third-vw-height{
+    height: calc(99vw * 0.3);
 }
 
 .one-six-vw-height{
