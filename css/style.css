@@ -1,7 +1,7 @@
 
 *{
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
     border: 0;
 }
 
@@ -146,6 +146,7 @@ header{
     margin-top: 50px;
 }
 
+.footer-list-title,
 .partner .text-partner p,
 .contact-body p{
     margin-bottom: 25px;
@@ -155,14 +156,6 @@ header{
 
 .partner-content-container{
     margin-top: 150px;
-}
-
-.partner img{
-    width: 55%;
-}
-
-.text-partner{
-    width: 40%;
 }
 
 .partner .text-partner a{
@@ -286,6 +279,19 @@ header{
 footer{
     background-color: black;
     color: white;
+    height: 100%;
+}
+
+.footer-container hr{
+    width: 100px;
+    border: 1px solid white;
+}
+
+.language-container span{
+    font-size: 0.8rem;
+}
+.language-container .fa-chevron-up{
+    font-size: 0.5rem;
 }
 
 /* CLASSI COMUNI FONT */
@@ -350,6 +356,10 @@ footer{
     border: solid 1px lightgrey;
 }
 
+.line-two-em{
+    line-height: 2em;
+}
+
 /* CLASSI COMUNI DIMENSIONI */
 .width-max{
     width: 99vw;
@@ -367,12 +377,16 @@ footer{
     width: 50%;
 }
 
+.width-forty{
+    width: 40%;
+}
+
 .one-third{
     width: 30%;
 }
 
-.width-forty{
-    width: 40%;
+.width-twenty{
+    width: calc(79vw / 5);
 }
 
 .one-third-vw-height{
@@ -422,7 +436,7 @@ footer{
 }
 
 .central-y-seven{
-    padding: 7vw 0;
+    margin: 7vw 0;
 }
 
 .central-twenty{
