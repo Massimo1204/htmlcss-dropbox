@@ -32,11 +32,11 @@ header{
 
 .header-container{
     width: 95%;
+    margin:auto;
 }
 
 /* BARRA NAVIGAZIONE */
 .header-container ul{
-    line-height: 80px;
     vertical-align: middle;
     padding-left: 2.65vw;
 }
@@ -44,6 +44,7 @@ header{
 .header-container ul li{
     display: inline;
     margin-right: 2.65vw;
+    line-height: 80px;
 }
 
 .header-container ul li a{
@@ -467,3 +468,11 @@ footer{
     display: inline-block;
 }
 
+/* BONUS */
+.button:hover{
+    background-color: rgb(51, 127, 244);
+}
+
+.header-container ul li:hover{
+    border-bottom: 3px solid blue;
+}
